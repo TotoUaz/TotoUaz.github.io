@@ -3,8 +3,8 @@ html {
   margin: 0;
 }
 
-.container {
-  background-image: url("static/images/top-view-workspace-with-glasses-cup-tea.jpg");
+.top-container {
+  background-image: url("static/images/top-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: -150px;
@@ -14,7 +14,7 @@ html {
   justify-content: center;
 }
 
-.content {
+.top-content {
   color: rgb(0, 0, 0);
   width: 50%;
   height: 50%;
