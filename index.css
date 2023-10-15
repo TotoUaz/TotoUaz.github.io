@@ -32,6 +32,8 @@ html {
 }
 
 .small-desc {
+  color: red;
   margin-top: 10px;
+  font-size: 30px;
   text-align: justify;
 }
