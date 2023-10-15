@@ -1,13 +1,13 @@
 *,
 html {
   margin: 0;
+  padding: 0;
 }
 
 .top-container {
   background-image: url("static/images/top-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -150px;
   height: 1000px;
   display: flex;
   align-items: center;
@@ -17,7 +17,7 @@ html {
 .top-content {
   color: rgb(0, 0, 0);
   width: 50%;
-  height: 50%;
+  height: 60%;
   text-align: center;
 }
 
@@ -35,4 +35,51 @@ html {
   margin-top: 10px;
   font-size: 30px;
   text-align: justify;
+}
+
+.second-container {
+  height: 800px;
+  background-color: #8685ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-my {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+.about-my-title {
+  text-align: left;
+  font-size: 25px;
+}
+
+.about-my-text {
+  font-size: 30px;
+  text-align: justify;
+  padding-top: 60px;
+}
+
+.socials {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.socials-list li {
+  display: inline;
+}
+
+.social-list-item {
+  padding-right: 40px;
+}
+
+.tech {
+  width: 10000px;
+  height: 80px;
+  position: relative;
+  left: -500px;
+  margin-top: 170px;
+  background-color: #2e2e2e;
 }
