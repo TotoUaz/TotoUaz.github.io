@@ -15,7 +15,6 @@ html {
 }
 
 .top-content {
-  color: rgb(0, 0, 0);
   width: 50%;
   height: 60%;
   text-align: center;
@@ -76,20 +75,71 @@ html {
 }
 
 .tech {
-  width: 2000px;
+  width: 204%;
   left: -500px;
-  height: 80px;
+  height: 120px;
   position: relative;
-  margin-top: 170px;
   background-color: #2e2e2e;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.tech-title {
+  margin-top: 90px;
+  margin-bottom: 20px;
 }
 
 .icon {
-  width: 60px;
-  padding-right: 4%;
-  margin-top: 7px;
+  position: relative;
+  width: 4%;
+  margin-top: 1%;
+  margin-right: 3%;
+  transition: all 0.3s;
 }
 
 .icon:hover {
-  width: 63px;
+  transform: translateY(-25px);
+}
+
+.icon img {
+  max-width: 100%;
+  filter: drop-shadow(-20px 0 10px #2e2e2e);
+  cursor: pointer;
+}
+
+.icon:not(:first-child) img {
+  margin-left: -20px;
+}
+
+.icon .name {
+  position: absolute;
+  background-color: #d3fbd8;
+  padding: 15px 30px;
+  border-radius: 100px;
+  bottom: -80px;
+  left: 50%;
+  white-space: nowrap;
+  transform: translate(-50%, -50px);
+  letter-spacing: 1px;
+  font-size: 20px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.icon .name::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #d3fbd8;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.icon img:hover + .name {
+  opacity: 1;
+  transform: translateX(-50%);
+  box-shadow: 0 10px 20px #2e2e2e;
 }
