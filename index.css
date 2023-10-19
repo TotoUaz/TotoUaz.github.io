@@ -150,3 +150,13 @@ a {
   transform: translateX(-50%);
   box-shadow: 0 10px 20px #2e2e2e;
 }
+
+.third-container {
+  height: 1000px;
+  background-color: #faf8ff;
+}
+
+.third-title {
+  text-align: center;
+  padding: 5%;
+}
