@@ -160,3 +160,36 @@ a {
   text-align: center;
   padding: 5%;
 }
+
+.info {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.row {
+  width: 100%;
+  text-align: left;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-left: 10%;
+}
+
+.column p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.column h3 {
+  font-size: 20px;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  text-align: left;
+}
+
+.info-img {
+  width: 30%;
+}
