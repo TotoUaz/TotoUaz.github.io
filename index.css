@@ -85,7 +85,7 @@ a {
   width: 100%;
   height: 100px;
   position: relative;
-  background-color: #2e2e2e;
+  background-color: #303030;
   border-radius: 50%;
   justify-content: center;
   display: flex;
@@ -186,10 +186,75 @@ a {
 .column h3 {
   font-size: 20px;
   padding-bottom: 10%;
-  padding-top: 5%;
+  padding-top: 10px;
   text-align: left;
 }
 
 .info-img {
   width: 30%;
+}
+
+.proyects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #303030;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.card:hover {
+  width: 1200px;
+  height: 500px;
+  background-color: #303030;
+  border-radius: 8px;
+  z-index: 1;
+  transition: 1s;
+}
+
+.card p {
+  color: white;
+  padding: 5%;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+}
+
+.circle {
+  padding: 0 4px;
+}
+
+.box {
+  display: inline-block;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border-radius: 50%;
+}
+
+.proyect-image {
+  width: 100%;
+}
+
+.red {
+  background-color: #ff605c;
+}
+
+.yellow {
+  background-color: #ffbd44;
+}
+
+.green {
+  background-color: #00ca4e;
 }
