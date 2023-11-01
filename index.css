@@ -152,7 +152,7 @@ a {
 }
 
 .third-container {
-  height: 1000px;
+  height: 100%;
   background-color: #faf8ff;
 }
 
@@ -211,7 +211,7 @@ a {
   z-index: 1;
   text-align: center;
   align-items: center;
-  transition: width 1s, hegith 1s;
+  transition: ease-in 0.5s;
 }
 
 .card-text {
