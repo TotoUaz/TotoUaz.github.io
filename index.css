@@ -198,25 +198,29 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: auto;
+  grid-auto-columns: auto;
   grid-gap: 1rem;
 }
 
 .card {
-  width: 300px;
+  width: 400px;
   height: 400px;
   margin: 0 auto;
   background-color: #303030;
   border-radius: 8px;
   z-index: 1;
+  text-align: center;
+  align-items: center;
+  transition: width 1s, hegith 1s;
+}
+
+.card-text {
+  text-align: justify;
 }
 
 .card:hover {
-  width: 1200px;
-  height: 500px;
-  background-color: #303030;
-  border-radius: 8px;
-  z-index: 1;
-  transition: 1s;
+  width: 100%;
+  height: auto;
 }
 
 .card p {
@@ -244,7 +248,7 @@ a {
 }
 
 .proyect-image {
-  width: 100%;
+  width: 90%;
 }
 
 .red {
